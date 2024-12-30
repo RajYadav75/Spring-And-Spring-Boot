@@ -7,7 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource("in/raj/cfgs/ApplicationContext.xml")
+@ImportResource("/in/raj/cfgs/ApplicationContext.xml")
 public class BootProj03AmbigutyBeanProblemStrategyDpApplication {
 
 	public static void main(String[] args) {
